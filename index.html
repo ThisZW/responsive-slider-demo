@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Responsive Slider Demo</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="video-container">
+        <video autoplay loop muted width="auto">
+          <source src="./assets/Barclays_EdTech.mp4" type="video/mp4" >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="slick-item">
+            <div class="item slide2">
+              <a class="prev-btn"><img class="button-left" src="./assets/left_arrow.png"/></a>
+              <a class="next-btn"><img class="button-right" src="./assets/right_arrow.png"/></a>
+              <div class="slide-content">
+                <img class="s2-img1" src="./assets/slide2_copylarge.png"/>
+                <img class="s2-img1-mobile" src="./assets/slide2_copysmall.png"/>
+                <a href="https://qz.com"> <img class="s2-button" src="./assets/slide2_button.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="slick-item">
+            <div class="item slide1">
+              <a class="prev-btn"><img class="button-left" src="./assets/left_arrow.png"/></a>
+              <a class="next-btn"><img class="button-right" src="./assets/right_arrow.png"/></a>
+              <div class="slide-content">
+                <img class="s1-img1" src="./assets/slide1_logo.png"/>
+                <img class="s1-img2" src="./assets/slide1_copylarge.png"/>
+                <a href="https://creative.qz.com/"><img class="s1-button" src="./assets/slide1_button.png"/></a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div style="clear:both;"></div>
+    </div>  
+  </body>
+</html>
