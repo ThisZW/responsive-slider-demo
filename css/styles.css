@@ -124,11 +124,8 @@ body{
   .slider{
     height: 430px
   }
-  .slide1 > .slide-content{
-    padding: 0 8%;
-  }
-  .slide2 > .slide-content{
-    padding: 0;
+  .slide-content{
+    padding: 0 10%;
   }
   .prev-btn, .next-btn{
     top: 130px;
@@ -176,6 +173,12 @@ body{
 
 /* even smaller screen */
 @media(max-width: 425px){
+  .slide1 > .slide-content{
+    padding-left: 40px;
+  }
+  .slide2 > .slide-content{
+    padding: 0;
+  }
   video{
     height: 100%;
     width: auto;
